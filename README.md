@@ -1,11 +1,11 @@
 
 # OpenCV Face68 Nose Mouth BoundingBox Example (OCV-face68-Nose-Mouth-BB)
 
-Example with Unity, OpenCV and Face68 Detection. 
+Example with Unity, OpenCV and Face68 Detection. Nose and Mouth calculation. Including normalization with NDC (noramlized device coordinates).
 
 <img src="./face68_nose.png" width="400">
 
-## Nose and NoxeNDC (normaliced device coordinates = NDC)
+## Nose and NoseNDC (normaliced device coordinates = NDC)
 Nose-Size calculation with BoundingBox (see code below).
 ```
 Point nosePoint = new Point(points[pointMitte].x, points[pointMitte].y);

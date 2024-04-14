@@ -38,6 +38,7 @@ Imgproc.FONT_HERSHEY_PLAIN, 1.4, new Scalar(255, 255, 0), 1, Imgproc.LINE_4, fal
 
 ## BB BoundingBox own calculation
 
+Check for the correct BB Size can be found [here on github](../../../OCV-face68-FaceMask).
 ```
 Point faceBBMin = new Point(999, 999);
 Point faceBBMax = new Point(0, 0);
